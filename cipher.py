@@ -75,7 +75,7 @@ class CaesarCipher(Cipher):
                 # Character not in alphabet
                 result.append(char)
         
-        # Returns the string formatted as a string with no
+        # Returns the list formatted as a string with no
         # seperating characters
         return ''.join(result)
 
@@ -99,7 +99,7 @@ class CaesarCipher(Cipher):
                 # Character not in alphabet
                 result.append(char)
         
-        # Returns the string formatted as a string with no
+        # Returns the list formatted as a string with no
         # seperating characters
         return ''.join(result)
 
@@ -149,7 +149,7 @@ class VigenereCipher(Cipher):
                 # Character not in alphabet
                 result.append(char)
 
-        # Returns the string formatted as a string with no
+        # Returns the list formatted as a string with no
         # seperating characters
         return ''.join(result)
 
@@ -178,7 +178,7 @@ class VigenereCipher(Cipher):
                 # Character not in alphabet
                 result.append(char)
         
-        # Returns the string formatted as a string with no
+        # Returns the list formatted as a string with no
         # seperating characters
         return ''.join(result)
 
@@ -216,7 +216,7 @@ class AffineCipher(Cipher):
                 # Character not in alphabet
                 result.append(char)
 
-        # Returns the string formatted as a string with no
+        # Returns the list formatted as a string with no
         # separating characters
         return ''.join(result)
     
@@ -243,6 +243,6 @@ class AffineCipher(Cipher):
                 # Character not in alphabet
                 result.append(char)
 
-        # Returns the string formatted as a string with no
+        # Returns the list formatted as a string with no
         # seperating characters
         return ''.join(result)
