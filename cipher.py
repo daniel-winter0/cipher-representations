@@ -78,9 +78,8 @@ class CaesarCipher(Cipher):
         # Returns the string formatted as a string with no
         # seperating characters
         return ''.join(result)
-    
-###########################################################################
 
+    
     def decrypt(self, text: str):
         # Ensure text is a string
         if not isinstance(text, str):
@@ -103,7 +102,8 @@ class CaesarCipher(Cipher):
         # Returns the string formatted as a string with no
         # seperating characters
         return ''.join(result)
-    
+
+###########################################################################
 
 class VigenereCipher(Cipher):
     def __init__(self, key: str):
